@@ -237,7 +237,7 @@ TCHAR *get_string(int id)
                "                              By default comparisons start at the first\r\n"
                "                              character in each line.\r\n"
                "  /L[OCALE] locale            Overrides the system default locale with\r\n"
-               "                              the specified one.  The \"C\" locale yields\r\n"
+               "                              the specified one.  The \"\"C\"\" locale yields\r\n"
                "                              the fastest collating sequence and is\r\n"
                "                              currently the only alternative.  The sort\r\n"
                "                              is always case insensitive.\r\n"
@@ -258,7 +258,7 @@ TCHAR *get_string(int id)
                "                              being stored in a temporary file) such that\r\n"
                "                              the amounts of memory used for both the sort\r\n"
                "                              and merge passes are equal.  The default\r\n"
-               "                              maximum memory size is 90%% of available main\r\n"
+               "                              maximum memory size is 90% of available main\r\n"
                "                              memory if both the input and output are\r\n"
                "                              files, and 45% of main memory otherwise.\r\n";
     case MSG_SORT_USAGE2:
